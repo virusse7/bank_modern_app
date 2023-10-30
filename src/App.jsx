@@ -1,5 +1,5 @@
-import React from "react"
-import styles from "./style"
+import React from "react";
+import styles from "./style";
 import {
   Billing,
   Business,
@@ -7,9 +7,7 @@ import {
   CardDeal,
   Clients,
   CTA,
-  FeedbackCard,
   Footer,
-  GetStarted,
   Hero,
   Navbar,
   Stats,
@@ -24,7 +22,6 @@ const App = () => (
         <Navbar />
       </div>
     </div>
-
     <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
@@ -46,4 +43,4 @@ const App = () => (
 );
 
 
-export default App
+export default App;
